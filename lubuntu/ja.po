@@ -1,0 +1,202 @@
+#. extracted from 181018.txt
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-18 10:19+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Translate Toolkit 1.9.0\n"
+
+#: 181018.txt:1
+msgid ""
+"## page was copied from PrecisePangolin/ReleaseNotes/Lubuntu\n"
+"<<Include(Lubuntu/Header)>>"
+msgstr ""
+
+#: 181018.txt:4
+msgid "||<tablestyle=\"float:right; font-size: 0.9em; width:30%; background:#F1F1ED; background-repeat: no-repeat; background-position:  98% 0.5ex; margin: 0 0 1em 1em; padding: 0.5em;\"><<TableOfContents>>||"
+msgstr ""
+
+#: 181018.txt:6
+msgid "= New Features in Lubuntu 12.10 ="
+msgstr "= Lubuntu 12.10の新機能 ="
+
+#: 181018.txt:8
+msgid "This release of Lubuntu contains:"
+msgstr "Lubuntuの今回のリリースには次のものが含まれます:"
+
+#: 181018.txt:10
+msgid ""
+" * Update of the visual identity of Lubuntu, including :\n"
+"  * A completely new icon theme.\n"
+"  * A new wallpaper and improvements to the current theme.\n"
+"  * A selection of community wallpapers.\n"
+"  * Improving integration of many applications with the new artwork. \n"
+" * A new version of the session manager is available, including more customizations and integration options (not enable by default, but available for testing).\n"
+" * A new version of pcmanfm (file manager), including at lot of bug fixes, external thumbnailer support, multiple screen support.\n"
+" * Notification-daemon have been replaced for xfce4-notifyd on the default installation, to display notifications.\n"
+" * Catfish, a searching utility, have been added to the default installation. "
+msgstr ""
+" * Lubuntuのビジュアルアイデンティティの更新として、次のものがあります :\n"
+"  * 全く新規のアイコンテーマ。\n"
+"  * 新しい壁紙と現在のテーマの改善。\n"
+"  * コミュニティ壁紙のセレクション。\n"
+"  * 多くのアプリケーションの新しいアートワークへの統合。\n"
+" * 新バージョンのセッションマネージャーが利用可能です。より多くのカスタマイズと統合オプションが含まれています (デフォルトでは有効ではありませんが、テスト用に利用可能です)。\n"
+" * 新バージョンのpcmanfm (ファイルマネージャー)。多くのバグフィックス、外部サムネイラーサポート、マルチスクリーンサポートが含まれています。\n"
+" * 通知を表示するための、通知デーモンを、デフォルトでインストールされるxfce4-notifydに置き換えました。\n"
+" * 検索ユーティリティのCatfishが、デフォルトインストールに加えられました。"
+
+#: 181018.txt:20
+msgid "== Lubuntu Applications =="
+msgstr "== Lubuntuアプリケーション =="
+
+#: 181018.txt:22
+msgid ""
+" * Based on the lightweight LXDE desktop environment.\n"
+" * Pcmanfm, a fast and lightweight files manager using gio/gvfs.\n"
+" * [[http://openbox.org/ | Openbox]], the fast and extensible, default windows-manager of LXDE.\n"
+" * Lightdm, using the simple GTK greeter\n"
+" * Chromium, the open-source version of Google Chrome.\n"
+" * For more detail, please see the [[Lubuntu/Applications | full list of applications]]"
+msgstr ""
+" * Based on the lightweight LXDE desktop environment.\n"
+" * 軽量なLXDEデスクトップ環境をベースとしています。\n"
+" * Pcmanfm、gio/gvfsを使用する、高速で軽量なファイルマネージャーです。\n"
+" * [[http://openbox.org/ | Openbox]]、高速で拡張性の高い、LXDEのデフォルトのウィンドウマネージャーです。\n"
+" * Lightdm、シンプルなGTKグリーターを使用しています。\n"
+" * Chromium、Google Chromeのオープンソースバージョンです。\n"
+" * 詳細については、[[Lubuntu/Applications | アプリケーションの全リスト]]を参照してください。"
+
+#: 181018.txt:29
+msgid "<<Include(QuantalQuetzal/ReleaseNotes/CommonInfrastructure, , from=\"^##StartQuantalReleaseNotesFeatures\", to=\"##EndQuantalReleaseNotesFeatures\")>>"
+msgstr ""
+
+#: 181018.txt:31
+msgid "= Installation ="
+msgstr "= インストール ="
+
+#: 181018.txt:33
+msgid "== Overview =="
+msgstr "== 概要 =="
+
+#: 181018.txt:35
+msgid "Preparing your computer for Lubuntu is now simpler, with a wider range of disk setup options. Each of these are detailed at length to provide you with a clear understanding of the actions that will take place with your selection."
+msgstr "Lubuntuのインストールを、よりシンプルにする一方で、ディスク設定の選択肢を拡張しました。それぞれの操作の詳細説明を見直し、選択した操作の結果を、より分かりやすく把握できるようにしています。"
+
+#: 181018.txt:37
+msgid "You can now reinstall or upgrade an existing copy of Lubuntu with the Desktop CD installer, provided that your computer is connected to the Internet. "
+msgstr "Desktop CDから起動されるインストーラーは、インターネットに接続されていれば、既存のLubuntu環境をアップグレードしたり、あるいは再インストールしたりすることができます。 "
+
+#: 181018.txt:39
+msgid "== Download  =="
+msgstr "== ダウンロード =="
+
+#: 181018.txt:41
+msgid "To download Lubuntu and see the various options available head over to [[https://help.ubuntu.com/community/Lubuntu/GetLubuntu | Get Lubuntu]]. This section also discusses both the standard installs and those required for computers with low memory (RAM), old chipsets (i586), PowerPC, Mac and low disk-space (netbooks)."
+msgstr "Lubuntuをダウンロードし、利用可能なさまざまなオプションを知るには、[[https://help.ubuntu.com/community/Lubuntu/GetLubuntu | Get Lubuntu]] の情報を参照してください。このセクションは、標準的なインストールに加え、少ないメモリ (RAM)、古いチップセット (i586)、PowerPC、Mac、および少ないディスクスペース (ネットブック) のコンピュータでの要件についても説明しています。"
+
+#: 181018.txt:43
+msgid "== System Requirements =="
+msgstr "== システム要件 =="
+
+#: 181018.txt:45
+msgid "A Pentium II or Celeron system with 128 MB of RAM is probably a bottom-line configuration that may yield slow yet usable system with a standard lubuntu desktop."
+msgstr "Pentium IIあるいはCeleron、128MBのRAMは、おそらく、標準的な Lubuntu デスクトップとして、遅いながらも使い物になる環境の最低ラインのコンフィギュレーションでしょう。 "
+
+#: 181018.txt:47
+msgid "Default i686 (32 bit) images support more hardware than the equivalent Ubuntu image, as it uses a non-PAE kernel, but is limited to 4 GB of memory. If you have more than 4 GB of memory on a 32 bit system, head over to [[https://help.ubuntu.com/community/Lubuntu/GetLubuntu | Get Lubuntu]] for a fuller discussion."
+msgstr "非PAEカーネルを使用するため、デフォルトの i686 (32bit) イメージは、同等のUbuntuイメージよりも多くのハードウェアをサポートしますが、4GBのメモリー制限があります。32bit環境で4GBを超えるメモリーを使用する場合は、[[https://help.ubuntu.com/community/Lubuntu/GetLubuntu | Get Lubuntu]] でより詳細な説明を参照してください。"
+
+#: 181018.txt:49
+msgid "For PowerPC, it is known to run on a G4 running at 867MHz with 640MB RAM. "
+msgstr "PowerPCについては、640MBのRAMで、867MHzで動作している G4 で起動することが知られています。"
+
+#: 181018.txt:51
+msgid "For Intel based Macs, lubuntu should run on all models."
+msgstr "IntelベースのMacについては、すべてのモデルでLubuntuが動作するはずです。"
+
+#: 181018.txt:53
+msgid "See [[https://help.ubuntu.com/community/Lubuntu/GetLubuntu | Get Lubuntu]] for fuller details as to which download to use."
+msgstr "どれをダウンロードして使用するかのより詳細な情報については、[[https://help.ubuntu.com/community/Lubuntu/GetLubuntu | Get Lubuntu]] を参照してください。"
+
+#: 181018.txt:55
+msgid "= Upgrading ="
+msgstr "= アップグレード ="
+
+#: 181018.txt:57
+msgid ""
+"== Upgrading from Lubuntu 12.04 ==\n"
+"The update manager GUI will offer you 12.10 Lubuntu (it shows as Ubuntu, but updates Lubuntu); Alternatively, launch LXTerminal and enter\n"
+"{{{\n"
+"sudo do-release-upgrade -d\n"
+"}}}\n"
+"Please note the importance of upgrading apt and dpkg on a mixed 32 bit & 64 bit architecture (e.g. Skype on a 64bit installation) below."
+msgstr ""
+"== Lubuntu 12.04からのアップグレード ==\n"
+"アップデートマネージャー GUI が 12.10 の Lubuntu を提案します (Ubuntu として表示されますが、Lubuntuの更新となります)。あるいは、LXTerminal を起動し、次のコマンドを入力します。\n"
+"{{{\n"
+"sudo do-release-upgrade -d\n"
+"}}}\n"
+"以下にあるとおり、32bitと64bitアーキテクチャ混合の環境 (たとえば、64bit環境上のSkype)では、apt および dpkg のアップグレードが重要であることに注意してください。"
+
+#: 181018.txt:64
+msgid ""
+"= Known Issues =\n"
+"== Installation ==\n"
+" * PPC has several issues and workarounds, please refer to the [[https://help.ubuntu.com/community/Lubuntu/Documentation/FAQ/PPC |documentation on the wiki]]"
+msgstr ""
+"= 既知の問題 =\n"
+"== インストール ==\n"
+" * PPC は、いくつかの問題とワークアラウンドがあります。[[https://help.ubuntu.com/community/Lubuntu/Documentation/FAQ/PPC |Wiki のドキュメント]]を参照してください。"
+
+#: 181018.txt:68
+msgid ""
+"== Graphics and Display ==\n"
+" * On some GTK3 applications, some tooltips have a black background and a black font. (Bug:1065941)"
+msgstr ""
+"== グラフィックおよびディスプレイ ==\n"
+" * いくつかの GTK3 アプリケーションでは、ツールチップが黒い背景に黒い文字で表示されることがあります。 (Bug:1065941)"
+
+#: 181018.txt:71
+msgid ""
+"== Applications ==\n"
+" * Execute in terminal is not working in pcmanfm (Bug:975152)\n"
+" * Blank boxes appear when hardinfo is started, and needed to be closed before accessing to the application (Bug:1029212)\n"
+" * Different spacing for the icons on the right corner of lxpanel (Bug:1056547)\n"
+" * Software sources takes 30 seconds to load (Bug:1051723)\n"
+" * Clicking on Ibus icon start the deamon, but doesn't display an icon (Bug:1041933)\n"
+" * gnome-mplayer with mplayer2 is not working on some hardware. Installing mplayer package workaround the problem (Bug:858226, Bug:974125, Bug:987734)\n"
+" * Calling file-roller inside pcmanfm doesn't work (Bug:978789)"
+msgstr ""
+"== アプリケーション ==\n"
+" * 端末での実行が、pcmanfmでは動作しません(Bug:975152)\n"
+" * hardinfoを起動するとブランクボックスが表示されます。アプリケーションを利用するには、ボックスを閉じる必要があります (Bug:1029212)\n"
+" * lxpanelの右端の各アイコンのスペースが異なっています (Bug:1056547)\n"
+" * Software sources takes 30 seconds to load (Bug:1051723)\n"
+" * ソフトウェアソースが、読み込みに30秒かかります (Bug:1051723)\n"
+" * IBusアイコンをクリックしてデーモンを起動しても、アイコンが表示されません (Bug:1041933)\n"
+" * mplayer2を使用するgnome-mplayerが、いくつかのハードウェアでは動作しません。mplayerパッケージのインストールが、問題のワークアラウンドとなります (Bug:858226, Bug:974125, Bug:987734)\n"
+" * pcmanfm内でのfile-rollerの起動は動作しません (Bug:978789)"
+
+#: 181018.txt:80
+msgid "<<Include(QuantalQuetzal/ReleaseNotes/CommonInfrastructure, , from=\"^##StartQuantalReleaseNotesBugs\", to=\"##EndQuantalReleaseNotesBugs\")>>"
+msgstr ""
+
+#: 181018.txt:83
+msgid "= Support ="
+msgstr "= サポート ="
+
+#: 181018.txt:85
+msgid ""
+" * 18 months.\n"
+" * [[https://wiki.ubuntu.com/Lubuntu/ContactUs | Contact us]]."
+msgstr ""
+" * 18 か月。\n"
+" * [[https://wiki.ubuntu.com/Lubuntu/ContactUs | 連絡先]]。"

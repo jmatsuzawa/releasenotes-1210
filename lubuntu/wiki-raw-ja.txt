@@ -1,0 +1,87 @@
+## page was copied from PrecisePangolin/ReleaseNotes/Lubuntu
+<<Include(Lubuntu/Header)>>
+
+||<tablestyle="float:right; font-size: 0.9em; width:30%; background:#F1F1ED; background-repeat: no-repeat; background-position:  98% 0.5ex; margin: 0 0 1em 1em; padding: 0.5em;"><<TableOfContents>>||
+
+= Lubuntu 12.10の新機能 =
+
+Lubuntuの今回のリリースには次のものが含まれます:
+
+ * Lubuntuのビジュアルアイデンティティの更新として、次のものがあります :
+  * 全く新規のアイコンテーマ。
+  * 新しい壁紙と現在のテーマの改善。
+  * コミュニティ壁紙のセレクション。
+  * 多くのアプリケーションの新しいアートワークへの統合。
+ * 新バージョンのセッションマネージャーが利用可能です。より多くのカスタマイズと統合オプションが含まれています (デフォルトでは有効ではありませんが、テスト用に利用可能です)。
+ * 新バージョンのpcmanfm (ファイルマネージャー)。多くのバグフィックス、外部サムネイラーサポート、マルチスクリーンサポートが含まれています。
+ * 通知を表示するための、通知デーモンを、デフォルトでインストールされるxfce4-notifydに置き換えました。
+ * 検索ユーティリティのCatfishが、デフォルトインストールに加えられました。
+
+== Lubuntuアプリケーション ==
+
+ * Based on the lightweight LXDE desktop environment.
+ * 軽量なLXDEデスクトップ環境をベースとしています。
+ * Pcmanfm、gio/gvfsを使用する、高速で軽量なファイルマネージャーです。
+ * [[http://openbox.org/ | Openbox]]、高速で拡張性の高い、LXDEのデフォルトのウィンドウマネージャーです。
+ * Lightdm、シンプルなGTKグリーターを使用しています。
+ * Chromium、Google Chromeのオープンソースバージョンです。
+ * 詳細については、[[Lubuntu/Applications | アプリケーションの全リスト]]を参照してください。
+
+<<Include(QuantalQuetzal/ReleaseNotes/CommonInfrastructure, , from="^##StartQuantalReleaseNotesFeatures", to="##EndQuantalReleaseNotesFeatures")>>
+
+= インストール =
+
+== 概要 ==
+
+Lubuntuのインストールを、よりシンプルにする一方で、ディスク設定の選択肢を拡張しました。それぞれの操作の詳細説明を見直し、選択した操作の結果を、より分かりやすく把握できるようにしています。
+
+Desktop CDから起動されるインストーラーは、インターネットに接続されていれば、既存のLubuntu環境をアップグレードしたり、あるいは再インストールしたりすることができます。 
+
+== ダウンロード ==
+
+Lubuntuをダウンロードし、利用可能なさまざまなオプションを知るには、[[https://help.ubuntu.com/community/Lubuntu/GetLubuntu | Get Lubuntu]] の情報を参照してください。このセクションは、標準的なインストールに加え、少ないメモリ (RAM)、古いチップセット (i586)、PowerPC、Mac、および少ないディスクスペース (ネットブック) のコンピュータでの要件についても説明しています。
+
+== システム要件 ==
+
+Pentium IIあるいはCeleron、128MBのRAMは、おそらく、標準的な Lubuntu デスクトップとして、遅いながらも使い物になる環境の最低ラインのコンフィギュレーションでしょう。 
+
+非PAEカーネルを使用するため、デフォルトの i686 (32bit) イメージは、同等のUbuntuイメージよりも多くのハードウェアをサポートしますが、4GBのメモリー制限があります。32bit環境で4GBを超えるメモリーを使用する場合は、[[https://help.ubuntu.com/community/Lubuntu/GetLubuntu | Get Lubuntu]] でより詳細な説明を参照してください。
+
+PowerPCについては、640MBのRAMで、867MHzで動作している G4 で起動することが知られています。
+
+IntelベースのMacについては、すべてのモデルでLubuntuが動作するはずです。
+
+どれをダウンロードして使用するかのより詳細な情報については、[[https://help.ubuntu.com/community/Lubuntu/GetLubuntu | Get Lubuntu]] を参照してください。
+
+= アップグレード =
+
+== Lubuntu 12.04からのアップグレード ==
+アップデートマネージャー GUI が 12.10 の Lubuntu を提案します (Ubuntu として表示されますが、Lubuntuの更新となります)。あるいは、LXTerminal を起動し、次のコマンドを入力します。
+{{{
+sudo do-release-upgrade -d
+}}}
+以下にあるとおり、32bitと64bitアーキテクチャ混合の環境 (たとえば、64bit環境上のSkype)では、apt および dpkg のアップグレードが重要であることに注意してください。
+
+= 既知の問題 =
+== インストール ==
+ * PPC は、いくつかの問題とワークアラウンドがあります。[[https://help.ubuntu.com/community/Lubuntu/Documentation/FAQ/PPC |Wiki のドキュメント]]を参照してください。
+
+== グラフィックおよびディスプレイ ==
+ * いくつかの GTK3 アプリケーションでは、ツールチップが黒い背景に黒い文字で表示されることがあります。 (Bug:1065941)
+
+== アプリケーション ==
+ * 端末での実行が、pcmanfmでは動作しません(Bug:975152)
+ * hardinfoを起動するとブランクボックスが表示されます。アプリケーションを利用するには、ボックスを閉じる必要があります (Bug:1029212)
+ * lxpanelの右端の各アイコンのスペースが異なっています (Bug:1056547)
+ * Software sources takes 30 seconds to load (Bug:1051723)
+ * ソフトウェアソースが、読み込みに30秒かかります (Bug:1051723)
+ * IBusアイコンをクリックしてデーモンを起動しても、アイコンが表示されません (Bug:1041933)
+ * mplayer2を使用するgnome-mplayerが、いくつかのハードウェアでは動作しません。mplayerパッケージのインストールが、問題のワークアラウンドとなります (Bug:858226, Bug:974125, Bug:987734)
+ * pcmanfm内でのfile-rollerの起動は動作しません (Bug:978789)
+
+<<Include(QuantalQuetzal/ReleaseNotes/CommonInfrastructure, , from="^##StartQuantalReleaseNotesBugs", to="##EndQuantalReleaseNotesBugs")>>
+
+= サポート =
+
+ * 18 か月。
+ * [[https://wiki.ubuntu.com/Lubuntu/ContactUs | 連絡先]]。

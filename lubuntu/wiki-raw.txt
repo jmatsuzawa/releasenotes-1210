@@ -1,0 +1,86 @@
+## page was copied from PrecisePangolin/ReleaseNotes/Lubuntu
+<<Include(Lubuntu/Header)>>
+
+||<tablestyle="float:right; font-size: 0.9em; width:30%; background:#F1F1ED; background-repeat: no-repeat; background-position:  98% 0.5ex; margin: 0 0 1em 1em; padding: 0.5em;"><<TableOfContents>>||
+
+= New Features in Lubuntu 12.10 =
+
+This release of Lubuntu contains:
+
+ * Update of the visual identity of Lubuntu, including :
+  * A completely new icon theme.
+  * A new wallpaper and improvements to the current theme.
+  * A selection of community wallpapers.
+  * Improving integration of many applications with the new artwork. 
+ * A new version of the session manager is available, including more customizations and integration options (not enable by default, but available for testing).
+ * A new version of pcmanfm (file manager), including at lot of bug fixes, external thumbnailer support, multiple screen support.
+ * Notification-daemon have been replaced for xfce4-notifyd on the default installation, to display notifications.
+ * Catfish, a searching utility, have been added to the default installation. 
+ 
+== Lubuntu Applications ==
+
+ * Based on the lightweight LXDE desktop environment.
+ * Pcmanfm, a fast and lightweight files manager using gio/gvfs.
+ * [[http://openbox.org/ | Openbox]], the fast and extensible, default windows-manager of LXDE.
+ * Lightdm, using the simple GTK greeter
+ * Chromium, the open-source version of Google Chrome.
+ * For more detail, please see the [[Lubuntu/Applications | full list of applications]]
+
+<<Include(QuantalQuetzal/ReleaseNotes/CommonInfrastructure, , from="^##StartQuantalReleaseNotesFeatures", to="##EndQuantalReleaseNotesFeatures")>>
+
+= Installation =
+
+== Overview ==
+
+Preparing your computer for Lubuntu is now simpler, with a wider range of disk setup options. Each of these are detailed at length to provide you with a clear understanding of the actions that will take place with your selection.
+
+You can now reinstall or upgrade an existing copy of Lubuntu with the Desktop CD installer, provided that your computer is connected to the Internet. 
+
+== Download  ==
+
+To download Lubuntu and see the various options available head over to [[https://help.ubuntu.com/community/Lubuntu/GetLubuntu | Get Lubuntu]]. This section also discusses both the standard installs and those required for computers with low memory (RAM), old chipsets (i586), PowerPC, Mac and low disk-space (netbooks).
+
+== System Requirements ==
+
+A Pentium II or Celeron system with 128 MB of RAM is probably a bottom-line configuration that may yield slow yet usable system with a standard lubuntu desktop.
+
+Default i686 (32 bit) images support more hardware than the equivalent Ubuntu image, as it uses a non-PAE kernel, but is limited to 4 GB of memory. If you have more than 4 GB of memory on a 32 bit system, head over to [[https://help.ubuntu.com/community/Lubuntu/GetLubuntu | Get Lubuntu]] for a fuller discussion.
+
+For PowerPC, it is known to run on a G4 running at 867MHz with 640MB RAM. 
+
+For Intel based Macs, lubuntu should run on all models.
+
+See [[https://help.ubuntu.com/community/Lubuntu/GetLubuntu | Get Lubuntu]] for fuller details as to which download to use.
+
+= Upgrading =
+
+== Upgrading from Lubuntu 12.04 ==
+The update manager GUI will offer you 12.10 Lubuntu (it shows as Ubuntu, but updates Lubuntu); Alternatively, launch LXTerminal and enter
+{{{
+sudo do-release-upgrade -d
+}}}
+Please note the importance of upgrading apt and dpkg on a mixed 32 bit & 64 bit architecture (e.g. Skype on a 64bit installation) below.
+
+= Known Issues =
+== Installation ==
+ * PPC has several issues and workarounds, please refer to the [[https://help.ubuntu.com/community/Lubuntu/Documentation/FAQ/PPC |documentation on the wiki]]
+
+== Graphics and Display ==
+ * On some GTK3 applications, some tooltips have a black background and a black font. (Bug:1065941)
+
+== Applications ==
+ * Execute in terminal is not working in pcmanfm (Bug:975152)
+ * Blank boxes appear when hardinfo is started, and needed to be closed before accessing to the application (Bug:1029212)
+ * Different spacing for the icons on the right corner of lxpanel (Bug:1056547)
+ * Software sources takes 30 seconds to load (Bug:1051723)
+ * Clicking on Ibus icon start the deamon, but doesn't display an icon (Bug:1041933)
+ * gnome-mplayer with mplayer2 is not working on some hardware. Installing mplayer package workaround the problem (Bug:858226, Bug:974125, Bug:987734)
+ * Calling file-roller inside pcmanfm doesn't work (Bug:978789)
+
+<<Include(QuantalQuetzal/ReleaseNotes/CommonInfrastructure, , from="^##StartQuantalReleaseNotesBugs", to="##EndQuantalReleaseNotesBugs")>>
+
+
+= Support =
+
+ * 18 months.
+ * [[https://wiki.ubuntu.com/Lubuntu/ContactUs | Contact us]].
