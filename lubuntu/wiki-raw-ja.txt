@@ -45,7 +45,7 @@ Lubuntuをダウンロードし、利用可能なさまざまなオプション�
 
 Pentium IIあるいはCeleron、128MBのRAMは、おそらく、標準的な Lubuntu デスクトップとして、遅いながらも使い物になる環境の最低ラインのコンフィギュレーションでしょう。 
 
-非PAEカーネルを使用するため、デフォルトの i686 (32bit) イメージは、同等のUbuntuイメージよりも多くのハードウェアをサポートしますが、4GBのメモリー制限があります。32bit環境で4GBを超えるメモリーを使用する場合は、[[https://help.ubuntu.com/community/Lubuntu/GetLubuntu | Get Lubuntu]] でより詳細な説明を参照してください。
+非PAEカーネルを使用するため、デフォルトの i686 (32bit) イメージは、同等のUbuntuイメージよりも多くのハードウェアをサポートしますが、4GBのメモリ制限があります。32bit環境で4GBを超えるメモリを使用する場合は、[[https://help.ubuntu.com/community/Lubuntu/GetLubuntu | Get Lubuntu]] でより詳細な説明を参照してください。
 
 PowerPCについては、640MBのRAMで、867MHzで動作している G4 で起動することが知られています。
 
@@ -73,7 +73,6 @@ sudo do-release-upgrade -d
  * 端末での実行が、pcmanfmでは動作しません(Bug:975152)
  * hardinfoを起動するとブランクボックスが表示されます。アプリケーションを利用するには、ボックスを閉じる必要があります (Bug:1029212)
  * lxpanelの右端の各アイコンのスペースが異なっています (Bug:1056547)
- * Software sources takes 30 seconds to load (Bug:1051723)
  * ソフトウェアソースが、読み込みに30秒かかります (Bug:1051723)
  * IBusアイコンをクリックしてデーモンを起動しても、アイコンが表示されません (Bug:1041933)
  * mplayer2を使用するgnome-mplayerが、いくつかのハードウェアでは動作しません。mplayerパッケージのインストールが、問題のワークアラウンドとなります (Bug:858226, Bug:974125, Bug:987734)

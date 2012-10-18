@@ -1,7 +1,7 @@
 #. extracted from 181018.txt
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: 34\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2012-10-18 10:19+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
@@ -112,7 +112,7 @@ msgstr "Pentium IIあるいはCeleron、128MBのRAMは、おそらく、標準�
 
 #: 181018.txt:47
 msgid "Default i686 (32 bit) images support more hardware than the equivalent Ubuntu image, as it uses a non-PAE kernel, but is limited to 4 GB of memory. If you have more than 4 GB of memory on a 32 bit system, head over to [[https://help.ubuntu.com/community/Lubuntu/GetLubuntu | Get Lubuntu]] for a fuller discussion."
-msgstr "非PAEカーネルを使用するため、デフォルトの i686 (32bit) イメージは、同等のUbuntuイメージよりも多くのハードウェアをサポートしますが、4GBのメモリー制限があります。32bit環境で4GBを超えるメモリーを使用する場合は、[[https://help.ubuntu.com/community/Lubuntu/GetLubuntu | Get Lubuntu]] でより詳細な説明を参照してください。"
+msgstr "非PAEカーネルを使用するため、デフォルトの i686 (32bit) イメージは、同等のUbuntuイメージよりも多くのハードウェアをサポートしますが、4GBのメモリ制限があります。32bit環境で4GBを超えるメモリを使用する場合は、[[https://help.ubuntu.com/community/Lubuntu/GetLubuntu | Get Lubuntu]] でより詳細な説明を参照してください。"
 
 #: 181018.txt:49
 msgid "For PowerPC, it is known to run on a G4 running at 867MHz with 640MB RAM. "
@@ -179,7 +179,6 @@ msgstr ""
 " * 端末での実行が、pcmanfmでは動作しません(Bug:975152)\n"
 " * hardinfoを起動するとブランクボックスが表示されます。アプリケーションを利用するには、ボックスを閉じる必要があります (Bug:1029212)\n"
 " * lxpanelの右端の各アイコンのスペースが異なっています (Bug:1056547)\n"
-" * Software sources takes 30 seconds to load (Bug:1051723)\n"
 " * ソフトウェアソースが、読み込みに30秒かかります (Bug:1051723)\n"
 " * IBusアイコンをクリックしてデーモンを起動しても、アイコンが表示されません (Bug:1041933)\n"
 " * mplayer2を使用するgnome-mplayerが、いくつかのハードウェアでは動作しません。mplayerパッケージのインストールが、問題のワークアラウンドとなります (Bug:858226, Bug:974125, Bug:987734)\n"
