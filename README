@@ -1,4 +1,4 @@
-wiki-raw.txt: Wikiのrawテキスト
+wiki-raw.txt: Wikiのrawテキスト (Rev 34)
 ja.po: rawテキストをベースにtxt2poにて生成
 wiki-raw-ja.txt: ja.poをベースにpo2txtで生成
 
